@@ -4,7 +4,7 @@ using namespace std;
 
 class Point {
     public:
-        Point(double x, double y) { this->x = x; this -> y = y; }
+        Point(double x = 0.0, double y = 0.0) { this->x = x; this -> y = y; }
         double getX() { return x; }
         void setX(double v) { x = v; }
         double getY() { return y; }
